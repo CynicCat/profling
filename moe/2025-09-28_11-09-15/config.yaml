@@ -1,0 +1,9 @@
+disable_ray: false
+max_tokens: 4096
+models:
+- Qwen/Qwen3-235B-A22B
+num_gpus: 8
+num_tensor_parallel_workers:
+- 8
+output_dir: profiling_outputs/moe/2025-09-28_11-09-15
+profile_method: record_function
