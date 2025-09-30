@@ -1,0 +1,12 @@
+disable_ray: false
+max_tokens: 4096
+models:
+- Qwen/Qwen-72B
+num_gpus: 8
+num_tensor_parallel_workers:
+- 1
+- 2
+- 4
+- 8
+output_dir: profiling_outputs/mlp/2025-09-26_14-00-35
+profile_method: record_function
